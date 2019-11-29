@@ -1,0 +1,15 @@
+#slide{
+    width: 100%;
+    height: 468px;
+    display:block;
+    border-left:5px double rgb(39, 39, 39);
+    border-right:5px double rgb(39, 39, 39);
+    border-top:1px solid rgb(39, 39, 39);
+    border-bottom:1px solid rgb(39, 39, 39);
+    border-radius: 5px;
+}
+
+#caption{
+    color:Black;
+    font-size: 34px;
+}

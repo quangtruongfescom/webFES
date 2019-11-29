@@ -1,0 +1,26 @@
+#lienhe{
+    margin:0;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+.tt{
+    font-size: 19px;
+}
+
+#dc{
+    color:rgb(52, 52, 231);
+    font-size: 21px;
+}
+#phone{
+    color: green;
+    font-size: 21px;
+}
+#mail{
+    color: red;
+    font-size: 21px;
+}
+#fb{
+    color: blue;
+    font-size: 21px;
+}

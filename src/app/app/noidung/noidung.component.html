@@ -1,0 +1,19 @@
+<!--ô bảng tin tức bằng slide-->
+<div id = noidungnoibat>
+    <router-outlet></router-outlet>
+    <div id= thongbaotinhot >
+        <app-slide [hidden]='clickofftb'></app-slide>
+    </div>
+</div>
+
+<!--Danh sách khách hàng tiêu biểu-->
+<div id=dskh [hidden]='nhanhanhdong' >
+    <p id=khtb>
+        <b>Khách hàng tiêu biểu</b>
+    </p>
+    <div id=logokh>
+        <ng-marquee duration='34' behavior='scroll'>
+            <div id=ds *ngFor='let logo of logos'><img class=kichthuocanh [src]=logo> </div>
+        </ng-marquee>
+    </div>
+</div>

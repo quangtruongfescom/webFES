@@ -1,0 +1,152 @@
+#trangchu{
+    width:100%; 
+    height:89px; 
+    background-color: rgb(37, 36, 36);
+}
+#trangchu1{
+    width: 20%;
+    float:left;
+    position: absolute;
+}
+#csstrangchu {
+    width: 100%;
+    height:89px;
+   float:left;
+   display:blobk;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+#hinhanhtrangchu{
+    height:65px;
+    margin-top:12px;
+    margin-left:89px
+    
+}
+#trangchu1 :hover {
+    filter: brightness(200%);
+    box-shadow:  0px 0px 13px 5px rgb(6, 168, 6);
+}
+
+#thanhtieude{
+    width:100%;
+    height:34px;
+    background-color:rgb(31, 29, 29);
+    text-align:center;
+}   
+
+#thanhtieude ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position: relative;
+    top:10px;
+}
+#thanhtieude li{
+    display: inline-block;
+    text-align:center;
+    width: 144px;
+    height:34px;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(150, 144, 144)
+    
+}
+ #thanhtieude li a:hover{
+     color: white
+ }
+ 
+ #divbao{
+    background-color: rgb(245, 255, 245);
+ }
+
+ #mangxahoi{
+     float:left;
+     width: 7%;
+     overflow: hidden;
+     height: 100%;
+     background-color: rgb(241, 255, 241);
+     
+ }
+
+ #danhmuc{
+    width: 100%;
+    background-color: indigo;
+    float:left;
+    height: 89px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    position: absolute;
+    text-align: center;
+ }
+
+ #noidung{
+     width: 63%;
+     float:left;
+     position: relative;
+ }
+
+ #tienich{
+     width: 30%;
+     float:left;
+     background-color:white;
+ }
+
+
+ #banquyen {
+    height: 55px;
+    clear:both;
+    text-align: center;
+    background-image: linear-gradient(rgb(80, 80, 255) , rgb(255, 255, 116));
+    background-position-y: center;
+    padding-top: 8px;
+ };
+
+ .fes{ width:100%; 
+ }
+ #effecterp{
+    height:49px;
+    width:129px;
+    margin-bottom: 15px;
+    padding-left:21px;
+    background-position-y: center;
+}
+
+ .haeff{
+    width: 144px;
+    color: black;
+    padding:21px;
+    filter: brightness(115%);
+    
+}
+
+.link{
+    text-decoration: none;
+    filter: brightness(104%);}
+a{
+    display:inline-block;
+   
+}
+
+#iconbaotri{
+    font-size: 40px;
+    margin-bottom:8px;
+    color: white;
+    text-shadow: -1px -1px 2px black;
+    
+}
+
+.baotri{
+    font-size: 21px;
+    color: white;
+    text-shadow: 0px 0px 2px black, 0px 0px 2px white;
+    
+}
+
+.otrong {
+    margin-left: 21px;
+    margin-right: 21px;
+};

@@ -1,0 +1,21 @@
+
+a{
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+}
+#kt2{
+    float:left;
+    width: 64%;
+    font-size: 18px;
+    font-family: serif;
+    text-align: justify;
+    margin-top: 21px;
+    margin-left:3px;
+}
+
+#kt1{
+    width:35%; 
+    height:100%;
+    float:left;
+    margin-top: 21px;
+}

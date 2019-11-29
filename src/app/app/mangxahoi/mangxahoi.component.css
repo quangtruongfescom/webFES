@@ -1,0 +1,27 @@
+#fb {
+    font-size: 55px;
+    position: fixed;
+    top:136px;
+    left:13px;
+}
+#iconfb { color:black }
+#iconfb :hover { color: rgb(0, 0, 136) }
+
+#google {
+    font-size: 55px;
+    position: fixed;
+    top:204px;
+    left:13px;
+}
+#icongg{ color: black}
+#icongg :hover { color: rgb(187, 12, 12)}
+
+#twitter{
+     font-size: 55px;
+     position: fixed;
+     top:272px;
+     left:13px;
+ }
+ #icontw{ color: black}
+ #icontw :hover{ color: rgba(0, 0, 201, 0.904)}
+

@@ -1,0 +1,101 @@
+<div id=trangchu> 
+    <a href='' id=trangchu1> 
+        <img  src="http://fescom.vn/wp-content/uploads/2018/09/1_Primary_logo_on_transparent_177x65.png"
+         alt="fes" id=hinhanhtrangchu>
+    </a>        
+    <div id=csstrangchu><app-csstrangchu></app-csstrangchu>
+    </div>
+</div>
+<!--Bên dưới là Form web-->
+
+<!--Đoạn dưới là thanh tiêu đề-->
+<div id=thanhtieude>
+    <ul>
+        <li><a routerLink ='gioithieu' (click)='clickgioithieu();'>Giới thiệu</a></li>
+        <li><a routerLink ='tongquansanpham' (click)='clicksanpham();'>Sản phẩm</a></li>
+        <li><a routerLink ='dichvu' (click)='clickdichvu();'>Dịch vụ</a></li>
+        <li><a routerLink ='' (click)='clicktintuc();'>Tin tức</a></li>
+        <li><a routerLink ='lienhe' (click)='clicklienhe();'>Liên hệ</a></li>
+        <li><a routerLink ='thongtinthem' (click)='clickthem()'>o o o</a></li>
+    </ul>
+</div>
+
+<!--Đoạn trên là cột mạng xã hội cố định (fixed)-->
+<div id=divbao>
+    <div id=mangxahoi>
+        <app-mangxahoi></app-mangxahoi>
+    </div>
+
+<!--Đoạn dưới là từng chỉ mục trong thanh tiêu đề-->
+    <div id=noidung>
+        <div id=danhmuc [hidden]="anhiensp"><!--Danh mục sản phẩm-->
+            <a href='' >
+                <img class=haeff 
+                src='http://fescom.vn/wp-content/uploads/2018/09/1_Primary_logo_on_transparent_177x65.png'>
+            </a>
+            <a routerLink='speffect30'>
+                <img class=haeff src='http://effectsoft.com.vn/r/files/images/giai-phap/gioithieuchung-pmkt/PNGfile/bacham.png'>
+            </a>
+            <a href=''>
+                <img class=haeff src='http://effectsoft.com.vn/r/files/images/giai-phap/gioithieuchung-pmkt/PNGfile/namcham.png'>
+            </a>
+            <a href='' >
+                <img id=effecterp src='http://effectsoft.com.vn/r/files/images/giai-phap/gioithieuchung-pmkt/PNGfile/ERP.png'>
+            </a>
+        </div>
+
+        <div id=danhmuc [hidden]="anhien"><!--Danh mục dịch vụ-->
+            <a routerLink='dvbaotri' class=link  >
+                <p class=otrong>
+                    <i id=iconbaotri class="fas fa-tools"></i><br>
+                    <b class=baotri>Bảo trì</b>
+                </p>
+            </a>
+            <a routerLink='dvcaidat' class=link>
+                <p class=otrong>
+                    <i id=iconbaotri class="fas fa-cogs"></i><br>
+                    <b class=baotri>Cài đặt</b>
+                </p>
+            </a>
+            <a routerLink='dvdaotao'  class=link>
+               <p class=otrong>
+                    <i id=iconbaotri class="fas fa-chalkboard-teacher"></i><br>
+                    <b class=baotri>Đào tạo </b>
+               </p>
+            </a>
+        </div>
+
+        <div id=danhmuc [hidden]="anhienthem"><!--Thông tin thêm dấu ...-->
+            <a routerLink='' class=link  >
+                <p class=otrong>
+                    <i id=iconbaotri class="fas fa-download"></i><br>
+                    <b class=baotri>Tải về</b>
+                </p>
+            </a>
+            <a routerLink='' class=link>
+                <p class=otrong>
+                    <i id=iconbaotri class="far fa-building"></i><br>
+                    <b class=baotri>Nội bộ DN</b>
+                </p>
+            </a>
+            <a routerLink=''  class=link>
+               <p class=otrong>
+                <i id=iconbaotri class="fas fa-user-tie"></i><br>
+                    <b class=baotri>Tuyển dụng </b>
+               </p>
+            </a>
+        </div>
+        <app-noidung [nhanhanhdong]='guihanhdong' [clickofftb]='clickofftb2'></app-noidung>
+    </div>
+
+    <!--Cột phải gồm tin tức, kiến thức, nhận xét khách hàng-->
+    <div id=tienich>
+        <app-tienich></app-tienich>
+    </div>
+
+    <div id=banquyen>
+        <p>© Bản quyền thuộc về ông Trường 
+            sao chép của ông Công Ty TNHH Giải Pháp Nhanh Và Hiệu Quả
+        </p>
+    </div>
+</div>

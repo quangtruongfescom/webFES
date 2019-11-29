@@ -1,0 +1,11 @@
+.nxkh {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+#hinhanh{
+    width: 144px;
+    height:144px;
+    float:left;
+    padding:5px;
+}

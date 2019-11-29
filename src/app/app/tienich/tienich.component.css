@@ -1,0 +1,57 @@
+.tieich{
+    width: 100%;
+}
+
+#tintuc {
+    height: 377px;
+    font-size: 18px;
+    border: double rgb(216, 160, 160) 4px;
+    padding: 10px;
+}
+#tintuc a{
+    text-decoration: none;
+    color: black;
+}
+#tieudetintuc{
+    border-bottom: 1px solid gray;
+}
+
+#kienthuc {
+    height: 377px;
+    font-size: 18px;
+    border: double rgb(216, 160, 160) 4px;
+    padding: 10px;  
+}
+#tieudekienthuc{
+    border-bottom: 1px solid gray;
+}
+#kienthuc a{
+    text-decoration: none;
+    color: black;
+}
+
+#nhanxet {
+    height: 377px;
+    padding: 10px;
+    font-size: 18px;
+    border: double rgb(216, 160, 160) 4px;
+}
+
+#nhanxet a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#tieudenx{
+    padding-bottom: 8px;
+}
+
+.kienthuc{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px dotted gray;
+}
+
+

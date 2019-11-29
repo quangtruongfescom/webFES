@@ -1,0 +1,19 @@
+
+a{
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+}
+#kt22{
+    width:35%; 
+    height:100%;
+    float:left;
+    clear:left;
+}
+#kt11{
+    float:left;
+    width: 64%;
+    font-size: 18px;
+    font-family: serif;
+    text-align: justify;
+}
+
